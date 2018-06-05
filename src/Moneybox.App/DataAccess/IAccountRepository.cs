@@ -7,5 +7,7 @@ namespace Moneybox.App.DataAccess
         Account GetAccountById(Guid accountId);
 
         void Update(Account account);
+
+        void Add(Account account);
     }
 }
